@@ -1,0 +1,166 @@
+body {
+  margin: 0;
+  font-family: "Lucida Grande";
+}
+a {
+  text-decoration: none;
+}
+* {
+  box-sizing: border-box;
+}
+
+header {
+  height: 70px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+}
+.header-kiri {
+  float: left;
+}
+.logo {
+  float: left;
+  width: 130px;
+  height: 70px;
+}
+.header-kiri p {
+  float: left;
+  padding-top: 13px;
+  letter-spacing: 10px;
+  font-weight: bold;
+  color:white;
+  margin-left: 10px;
+}
+.header-kanan {
+  float: right;
+  background-color: rgba(255, 255, 255, 0.5);
+  transition: all 0.1s;
+}
+.header-kanan:hover {
+background-color: rgba(255, 255, 255, 0.7);
+cursor: pointer;
+}
+
+.header-kanan a {
+  line-height: 70px;  padding: 0 30px;
+  color: white;
+  display: block;
+}
+.isi {
+  width: 100%;
+}
+.container {
+  width:1170px;
+  padding:0 15px;
+  margin:0 auto;
+}
+.bagian-utama {
+  text-align: center;
+  color: white;
+  background-image: url(https://cdn.pixabay.com/photo/2019/07/05/14/19/house-4318739_1280.png);
+  background-size: cover;
+  padding: 180px 0 100px 0;
+  height: 700px;
+}
+
+.bagian-utama h1 {
+  margin:5px 15px;
+  opacity: 0.9;
+  letter-spacing: 5px;
+  font-size: 50px;
+}
+
+.bagian-utama h3 {
+  opacity: 0.7;
+  font-size: 30px;
+  margin-top:10px;
+  margin-bottom:30px;
+}
+
+.bagian-utama p {
+  margin:2px 15px;
+  opacity:0.7;
+}
+
+.menu-utama {
+  margin:80px auto;
+}
+
+.btn {
+  display: inline-block;
+  padding:20px 24px;
+  opacity: 0.7;
+  color:white;
+  border-radius: 4px;
+  margin: 0 10px;
+  font-size: 30px;
+}
+
+.suku {
+  background-color: #239b76;
+}
+.makanan {
+  background-color: #3b5998;
+}
+.pariwisata {
+  background-color: #55acee;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.bagian-tambahan {
+  background-color: #f7f7f7;
+  text-align: center;
+}
+.clear {
+  clear: left;
+}
+.judul-tambahan h2 {
+  opacity:0.8;
+  color:black;
+  padding: 30px;
+  font-weight: bold;
+  margin-top: 0;
+}
+.menu-tambahan {
+  float: left;
+  width: 33%;
+  text-align: center;
+}
+.tambahan p {
+  width: 100%;
+  opacity:0.5;
+  letter-spacing: 2px;
+}
+.teks {
+  width: 50%;
+  display: inline-block;
+  margin: : 10px;
+  color: #b3aeb5;
+}
+.tambahan img {
+  height: 150px;
+  width: 150px;
+}
+footer {
+  background-color: rgba(34, 49, 52, 0.9);
+  width: 100%;
+  height: 70px
+
+}
+
+footer logo {
+  width: 125px;
+  height: 70px;
+  float:left;
+}
+
+footer p {
+  font-size: 20px;
+  float: left;
+  color: white;
+  opacity:0.7;
+  letter-spacing: 5px;
+  margin-left: 10px;
+}
